@@ -1,0 +1,1662 @@
+[mtxapi] 2020/12/08 20:56:32   INFO main com.mtx.http.MtxHttpClient:43 - url:http://192.168.43.203:8080/pinter/com/getSku 
+[mtxapi] 2020/12/08 20:56:32   INFO main com.mtx.http.MtxHttpClient:44 - params:?id=1&location=beijing 
+[mtxapi] 2020/12/08 20:56:42   INFO main com.mtx.http.MtxHttpClient:63 - response:{"code":"0","message":"success","data":{"skuId":1,"skuName":"ptest-1","price":"633","stock":425,"brand":"testfan"}} 
+[mtxapi] 2020/12/10 11:16:7   INFO main com.mtx.http.MtxHttpClient:43 - url:http://192.168.43.203:8080/pinter/com/getSku 
+[mtxapi] 2020/12/10 11:16:7   INFO main com.mtx.http.MtxHttpClient:44 - params:?id=1&location=beijing 
+[mtxapi] 2020/12/10 11:16:23   INFO main com.mtx.http.MtxHttpClient:63 - response:{"code":"0","message":"success","data":{"skuId":1,"skuName":"ptest-1","price":"961","stock":290,"brand":"testfan"}} 
+[mtxapi] 2020/12/10 11:17:11   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.43.203/mtx/index.php?s=/index/user/login.html 
+[mtxapi] 2020/12/10 11:17:11   INFO main com.mtx.http.MtxHttpClient:90 - param:accounts=jinny 
+[mtxapi] 2020/12/10 11:17:11   INFO main com.mtx.http.MtxHttpClient:90 - param:pwd=123456 
+[mtxapi] 2020/12/10 11:17:11   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/10 11:17:12   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"登录成功","code":0,"data":{"body_html":""}} 
+[mtxapi] 2020/12/10 11:17:12   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.43.203/mtx/index.php?s=/index/buy/add.html 
+[mtxapi] 2020/12/10 11:17:12   INFO main com.mtx.http.MtxHttpClient:90 - param:buy_type=goods 
+[mtxapi] 2020/12/10 11:17:12   INFO main com.mtx.http.MtxHttpClient:90 - param:payment_id=1 
+[mtxapi] 2020/12/10 11:17:12   INFO main com.mtx.http.MtxHttpClient:90 - param:address_id=7 
+[mtxapi] 2020/12/10 11:17:12   INFO main com.mtx.http.MtxHttpClient:90 - param:goods_id=1 
+[mtxapi] 2020/12/10 11:17:12   INFO main com.mtx.http.MtxHttpClient:90 - param:user_note=这是留言 
+[mtxapi] 2020/12/10 11:17:12   INFO main com.mtx.http.MtxHttpClient:90 - param:stock=1 
+[mtxapi] 2020/12/10 11:17:12   INFO main com.mtx.http.MtxHttpClient:90 - param:spec=[] 
+[mtxapi] 2020/12/10 11:17:12   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/10 11:17:13   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"提交成功","code":0,"data":{"order":{"id":"103","order_no":"20201210111716307594","user_id":"28","user_note":"????","express_id":"0","express_number":"","payment_id":"1","status":"1","pay_status":"0","extension_data":"","buy_number_count":"1","increase_price":"0.00","preferential_price":"0.00","price":"2100.00","total_price":"2100.00","pay_price":"0.00","refund_price":"0.00","returned_quantity":"0","client_type":"pc","order_model":"0","pay_time":"0","confirm_time":"1607570236","delivery_time":"0","cancel_time":"0","collect_time":"0","close_time":"0","comments_time":"0","is_comments":"0","user_is_comments":"0","is_delete_time":"0","user_is_delete_time":"0","add_time":"1607570236","upd_time":"0"},"jump_url":"http:\/\/192.168.43.203\/mtx\/index.php?s=\/index\/order\/pay\/id\/103.html"}} 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.43.203/mtx/index.php?s=/index/user/login.html 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:90 - param:accounts=jinny 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:90 - param:pwd=123456 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"登录成功","code":0,"data":{"body_html":""}} 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.43.203/mtx/index.php?s=/index/buy/add.html 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:90 - param:buy_type=goods 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:90 - param:payment_id=1 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:90 - param:address_id=7 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:90 - param:goods_id=1 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:90 - param:user_note=这是留言 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:90 - param:stock=1 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:90 - param:spec=[] 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/10 12:34:24   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"提交成功","code":0,"data":{"order":{"id":"104","order_no":"20201210123425114361","user_id":"28","user_note":"????","express_id":"0","express_number":"","payment_id":"1","status":"1","pay_status":"0","extension_data":"","buy_number_count":"1","increase_price":"0.00","preferential_price":"0.00","price":"2100.00","total_price":"2100.00","pay_price":"0.00","refund_price":"0.00","returned_quantity":"0","client_type":"pc","order_model":"0","pay_time":"0","confirm_time":"1607574865","delivery_time":"0","cancel_time":"0","collect_time":"0","close_time":"0","comments_time":"0","is_comments":"0","user_is_comments":"0","is_delete_time":"0","user_is_delete_time":"0","add_time":"1607574865","upd_time":"0"},"jump_url":"http:\/\/192.168.43.203\/mtx\/index.php?s=\/index\/order\/pay\/id\/104.html"}} 
+[mtxapi] 2020/12/13 16:34:53   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.1.105/mtx/index.php?s=/index/user/reg.html 
+[mtxapi] 2020/12/13 16:34:53   INFO main com.mtx.http.MtxHttpClient:90 - param:is_agree_agreement=1 
+[mtxapi] 2020/12/13 16:34:53   INFO main com.mtx.http.MtxHttpClient:90 - param:accounts=roy 
+[mtxapi] 2020/12/13 16:34:53   INFO main com.mtx.http.MtxHttpClient:90 - param:type=username 
+[mtxapi] 2020/12/13 16:34:53   INFO main com.mtx.http.MtxHttpClient:90 - param:pwd=123456 
+[mtxapi] 2020/12/13 16:34:53   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/13 16:34:54   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"注册成功","code":0,"data":{"msg":"添加成功","code":0,"data":{"body_html":"","user_id":"30"}}} 
+[mtxapi] 2020/12/13 17:11:33   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.1.105/mtx/index.php?s=/index/user/reg.html 
+[mtxapi] 2020/12/13 17:11:33   INFO main com.mtx.http.MtxHttpClient:90 - param:is_agree_agreement=1 
+[mtxapi] 2020/12/13 17:11:33   INFO main com.mtx.http.MtxHttpClient:90 - param:accounts=roy 
+[mtxapi] 2020/12/13 17:11:33   INFO main com.mtx.http.MtxHttpClient:90 - param:type=username 
+[mtxapi] 2020/12/13 17:11:33   INFO main com.mtx.http.MtxHttpClient:90 - param:pwd=123456 
+[mtxapi] 2020/12/13 17:11:33   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/13 17:11:33   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"注册成功","code":0,"data":{"msg":"添加成功","code":0,"data":{"body_html":"","user_id":"31"}}} 
+[mtxapi] 2020/12/13 17:12:58   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.1.105/mtx/index.php?s=/index/user/reg.html 
+[mtxapi] 2020/12/13 17:12:58   INFO main com.mtx.http.MtxHttpClient:90 - param:is_agree_agreement=1 
+[mtxapi] 2020/12/13 17:12:58   INFO main com.mtx.http.MtxHttpClient:90 - param:accounts=roy 
+[mtxapi] 2020/12/13 17:12:58   INFO main com.mtx.http.MtxHttpClient:90 - param:type=username 
+[mtxapi] 2020/12/13 17:12:58   INFO main com.mtx.http.MtxHttpClient:90 - param:pwd=123456 
+[mtxapi] 2020/12/13 17:12:58   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/13 17:12:58   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"注册成功","code":0,"data":{"msg":"添加成功","code":0,"data":{"body_html":"","user_id":"32"}}} 
+[mtxapi] 2020/12/13 17:15:22   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.1.105/mtx/index.php?s=/index/user/reg.html 
+[mtxapi] 2020/12/13 17:15:22   INFO main com.mtx.http.MtxHttpClient:90 - param:is_agree_agreement=1 
+[mtxapi] 2020/12/13 17:15:22   INFO main com.mtx.http.MtxHttpClient:90 - param:accounts=roy 
+[mtxapi] 2020/12/13 17:15:22   INFO main com.mtx.http.MtxHttpClient:90 - param:type=username 
+[mtxapi] 2020/12/13 17:15:22   INFO main com.mtx.http.MtxHttpClient:90 - param:pwd=123456 
+[mtxapi] 2020/12/13 17:15:22   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/13 17:15:22   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"注册成功","code":0,"data":{"msg":"添加成功","code":0,"data":{"body_html":"","user_id":"33"}}} 
+[mtxapi] 2020/12/13 17:17:29   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.1.105/mtx/index.php?s=/index/user/reg.html 
+[mtxapi] 2020/12/13 17:17:29   INFO main com.mtx.http.MtxHttpClient:90 - param:is_agree_agreement=1 
+[mtxapi] 2020/12/13 17:17:29   INFO main com.mtx.http.MtxHttpClient:90 - param:accounts=roy 
+[mtxapi] 2020/12/13 17:17:29   INFO main com.mtx.http.MtxHttpClient:90 - param:type=username 
+[mtxapi] 2020/12/13 17:17:29   INFO main com.mtx.http.MtxHttpClient:90 - param:pwd=123456 
+[mtxapi] 2020/12/13 17:17:29   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/13 17:17:29   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"注册成功","code":0,"data":{"msg":"添加成功","code":0,"data":{"body_html":"","user_id":"34"}}} 
+[mtxapi] 2020/12/13 17:18:30   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.1.105/mtx/index.php?s=/index/user/reg.html 
+[mtxapi] 2020/12/13 17:18:30   INFO main com.mtx.http.MtxHttpClient:90 - param:is_agree_agreement=1 
+[mtxapi] 2020/12/13 17:18:30   INFO main com.mtx.http.MtxHttpClient:90 - param:accounts=roy 
+[mtxapi] 2020/12/13 17:18:30   INFO main com.mtx.http.MtxHttpClient:90 - param:type=username 
+[mtxapi] 2020/12/13 17:18:30   INFO main com.mtx.http.MtxHttpClient:90 - param:pwd=123456 
+[mtxapi] 2020/12/13 17:18:30   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/13 17:18:30   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"注册成功","code":0,"data":{"msg":"添加成功","code":0,"data":{"body_html":"","user_id":"35"}}} 
+[mtxapi] 2020/12/13 17:19:25   INFO main com.mtx.http.MtxHttpClient:81 - url:http://192.168.1.105/mtx/index.php?s=/index/user/reg.html 
+[mtxapi] 2020/12/13 17:19:25   INFO main com.mtx.http.MtxHttpClient:90 - param:is_agree_agreement=1 
+[mtxapi] 2020/12/13 17:19:25   INFO main com.mtx.http.MtxHttpClient:90 - param:accounts=roy 
+[mtxapi] 2020/12/13 17:19:25   INFO main com.mtx.http.MtxHttpClient:90 - param:type=username 
+[mtxapi] 2020/12/13 17:19:25   INFO main com.mtx.http.MtxHttpClient:90 - param:pwd=123456 
+[mtxapi] 2020/12/13 17:19:25   INFO main com.mtx.http.MtxHttpClient:99 - header:X-Requested-With=XMLHttpRequest 
+[mtxapi] 2020/12/13 17:19:25   INFO main com.mtx.http.MtxHttpClient:110 - response:{"msg":"注册成功","code":0,"data":{"msg":"添加成功","code":0,"data":{"body_html":"","user_id":"36"}}} 
+[mtxapi] 2020/12/14 11:25:0   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/14 11:25:0   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/14 11:25:0   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/14 11:25:0   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"679f3c3c84fc4a6fb49cd1a70b1b5816","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-14 11:25:01","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/14 11:25:0   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/14 11:25:0   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"王同学","lat":""}} 
+[mtxapi] 2020/12/14 11:25:0   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=679f3c3c84fc4a6fb49cd1a70b1b5816 
+[mtxapi] 2020/12/14 11:28:58   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/14 11:28:58   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/14 11:28:58   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/14 11:28:58   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"95d060f460044359b2dab8696fb5fcc0","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-14 11:28:59","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"王同学","lat":""}} 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=95d060f460044359b2dab8696fb5fcc0 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"","lat":""}} 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=95d060f460044359b2dab8696fb5fcc0 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"135815876765897","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"王同学","lat":""}} 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=95d060f460044359b2dab8696fb5fcc0 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","lat":""}} 
+[mtxapi] 2020/12/14 11:28:59   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=95d060f460044359b2dab8696fb5fcc0 
+[mtxapi] 2020/12/14 11:42:27   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/14 11:42:27   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/14 11:42:27   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/14 11:42:28   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"76abe9f4024840108cb8d4420771fbae","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-14 11:42:29","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/14 11:42:28   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/14 11:42:28   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"王同学","lat":""}} 
+[mtxapi] 2020/12/14 11:42:28   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=76abe9f4024840108cb8d4420771fbae 
+[mtxapi] 2020/12/14 12:22:53   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/14 12:22:53   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/14 12:22:53   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/14 12:22:53   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"8d6644348ac043779c165713842227e7","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-14 12:22:54","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/14 12:22:53   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmContacts/addOrUpdate 
+[mtxapi] 2020/12/14 12:22:53   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"address":"北京霍营","post":"总经理","next_time":"2020-04-23 16:03:47","name":"晶晶","mobile":"18098909090","telephone":"01023456789","remark":"这是备注","customer_id":5,"email":"shddhdd@163.com"}} 
+[mtxapi] 2020/12/14 12:22:53   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=8d6644348ac043779c165713842227e7 
+[mtxapi] 2020/12/14 12:43:59   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/14 12:43:59   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/14 12:43:59   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/14 12:43:59   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"9d85607b484548da81c8c28902c0585e","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-14 12:44:00","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"王同学","lat":""}} 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=9d85607b484548da81c8c28902c0585e 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"","lat":""}} 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=9d85607b484548da81c8c28902c0585e 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"135815876765897","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"王同学","lat":""}} 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=9d85607b484548da81c8c28902c0585e 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","lat":""}} 
+[mtxapi] 2020/12/14 12:44:0   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=9d85607b484548da81c8c28902c0585e 
+[mtxapi] 2020/12/14 15:09:16   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：0 
+[mtxapi] 2020/12/14 15:09:39   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/14 15:11:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/14 15:11:18  ERROR main com.mtx.util.ExcelUtil:68 - java.lang.NullPointerException 
+[mtxapi] 2020/12/14 15:11:44   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：  
+[mtxapi] 2020/12/14 15:11:54   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/14 15:16:15   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第0行第0列的指是：测试用例名 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第0行第1列的指是：测试数据 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第0行第2列的指是：期望结果 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/14 15:17:37   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/14 15:34:25   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 10:30:55   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 10:30:55   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 10:30:55   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 10:30:55   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"2c20b629be154bf89cab05eaf2aa1da7","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 10:30:50","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 10:30:56   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 10:30:56   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"00001","name":"Java全栈自动化","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 10:30:56   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=2c20b629be154bf89cab05eaf2aa1da7 
+[mtxapi] 2020/12/15 10:53:10   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 10:53:10   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 10:53:10   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 10:53:10   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"9027d8c656b04111ad4204fd9949599a","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 10:53:05","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 10:53:11   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 10:53:11   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"66560","name":"8DC65","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 10:53:11   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=9027d8c656b04111ad4204fd9949599a 
+[mtxapi] 2020/12/15 10:53:28   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 10:53:28   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 10:53:28   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 10:53:28   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"50245902aa834560a9c445a532859447","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 10:53:22","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 10:53:28   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 10:53:28   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"29693","name":"CB8DB","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 10:53:28   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=50245902aa834560a9c445a532859447 
+[mtxapi] 2020/12/15 11:09:46   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 11:09:46   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 11:09:46   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 11:09:46   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"0309bbf16b0d4032a381e71417adb60b","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 11:09:40","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 11:09:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 11:13:20   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:13:47   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 11:14:9   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 11:14:9   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 11:14:9   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 11:14:9   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"6ecca59a02a641c485ea7f59b71da91e","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 11:14:04","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:14:10   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:18:40   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 11:21:49   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 11:21:49   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 11:21:49   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"55c619fbece54b959d062c48b6b53782","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 11:21:44","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:21:50   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 11:31:40   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 11:31:40   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 11:31:40   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 11:31:41   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"730a566bc5ab444f8af1e41a1f256717","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 11:31:35","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 11:31:42   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 12:16:23   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:16:23   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:16:23   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:16:23   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"b14f00d7faf141f380ca740b5823051f","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:16:18","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:16:24   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:16:24   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"75341","name":"E1450","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:16:24   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=b14f00d7faf141f380ca740b5823051f 
+[mtxapi] 2020/12/15 12:17:44   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:17:44   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:17:44   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:17:44   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"f2b27056ae544f06a1e919f442140e0c","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:17:39","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:17:45   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 12:18:20   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:18:20   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:18:20   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:18:20   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"d23ca5a26339496eba8c1c434e17a5d8","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:18:14","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:18:21   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 12:19:6   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:19:6   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:19:6   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:19:6   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"563fd3e32a3b4558bfaa1602a3a78522","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:19:01","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:19:7   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:20:51   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:21:6   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 12:25:28   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:25:28   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:25:28   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:25:28   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"8a4edf21fcd2439183de55009d1fc483","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:25:22","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:25:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 12:26:28   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:26:28   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:26:28   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:26:28   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"f6b4a8a3127046a4844aa542c07e9208","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:26:23","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:26:28   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:26:28   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"27815","name":"E11CB","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:26:28   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=f6b4a8a3127046a4844aa542c07e9208 
+[mtxapi] 2020/12/15 12:26:29   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:26:29   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"70187","name":"E5026","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:26:29   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=f6b4a8a3127046a4844aa542c07e9208 
+[mtxapi] 2020/12/15 12:27:28   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:27:28   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:27:28   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:27:28   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"dbd3e7d42768421083324adf5c45b523","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:27:23","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：2020-12-14 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：16:22 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：3 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:27:29   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 12:28:33   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:28:33   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:28:33   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:28:34   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"e671256b85c142e5b4e554648bb1169b","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:28:28","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：true 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：true 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：true 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：true 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:28:35   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：true 
+[mtxapi] 2020/12/15 12:30:10   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:30:10   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:30:10   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:30:10   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"0b084b2391b04239931c7f1054251cec","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:30:04","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：   
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：   
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：   
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：   
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:30:11   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 12:30:59   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:30:59   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:30:59   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:30:59   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"36f4db3552fd4c4fbe5c4acd05eafb1e","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:30:54","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:31:0   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:31:0   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:31:0   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:31:0   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:31:0   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:31:0   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:31:0   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:31:0   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:31:0   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:31:0   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:33:58   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:33:58   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:33:58   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:33:58   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"efa3180dea214793bff1ccd6819e94ca","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:33:52","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"58201","name":"E5938","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=efa3180dea214793bff1ccd6819e94ca 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"85259","name":"61992","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=efa3180dea214793bff1ccd6819e94ca 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":"","price":"6780","num":"55747","name":"85184","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=efa3180dea214793bff1ccd6819e94ca 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"13581","name":"9532C","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=efa3180dea214793bff1ccd6819e94ca 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"","num":"21176","name":"16654","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:33:59   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=efa3180dea214793bff1ccd6819e94ca 
+[mtxapi] 2020/12/15 12:35:1   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:35:1   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:35:1   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:35:1   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"c5f434d9a2f84cd192b346e363d8f031","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:34:55","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：   
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：   
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：   
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：   
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：   
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"98880","name":"9B3AD","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=c5f434d9a2f84cd192b346e363d8f031 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"17125","name":"D191A","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=c5f434d9a2f84cd192b346e363d8f031 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":"","price":"6780","num":"41119","name":"332C5","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=c5f434d9a2f84cd192b346e363d8f031 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"15425","name":"13148","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=c5f434d9a2f84cd192b346e363d8f031 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"","num":"82554","name":"3DC4A","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:35:2   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=c5f434d9a2f84cd192b346e363d8f031 
+[mtxapi] 2020/12/15 12:38:0   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:38:0   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:38:0   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:38:0   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"2db88ef5084043b480ef567db2f7fc83","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:37:55","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"77967","name":"D395B","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=2db88ef5084043b480ef567db2f7fc83 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"70463","name":"0CC3E","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=2db88ef5084043b480ef567db2f7fc83 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":"","price":"6780","num":"34244","name":"36B17","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=2db88ef5084043b480ef567db2f7fc83 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"35368","name":"8DAD5","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=2db88ef5084043b480ef567db2f7fc83 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"","num":"90610","name":"5CD14","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:38:1   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=2db88ef5084043b480ef567db2f7fc83 
+[mtxapi] 2020/12/15 12:41:55   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:41:55   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:41:55   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:41:55   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"4d3aa7a10b404794b21ec42a21cce644","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:41:49","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"53877","name":"7EDBA","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=4d3aa7a10b404794b21ec42a21cce644 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"42816","name":"7326D","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=4d3aa7a10b404794b21ec42a21cce644 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":"","price":"6780","num":"61506","name":"14D1C","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=4d3aa7a10b404794b21ec42a21cce644 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"60260","name":"20B9A","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=4d3aa7a10b404794b21ec42a21cce644 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"","num":"53381","name":"8A935","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:41:56   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=4d3aa7a10b404794b21ec42a21cce644 
+[mtxapi] 2020/12/15 12:42:22   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 12:42:22   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 12:42:22   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 12:42:22   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"9170561348b942d087ef3607cd164fc8","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 12:42:16","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第0列的指是：新建产品正确 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第1行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第0列的指是：产品名称为空 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第1列的指是：{
+	"entity": {
+		"name": "",
+		"category_id": 23,
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第2行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第0列的指是：产品类型为空 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化11",
+		"category_id": "",
+		"num": "00001",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第3行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第0列的指是：产品编号为空 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "",
+		"price": "6780",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第4行第2列的指是：{"code":1} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第0列的指是：产品价格为空 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第1列的指是：{
+	"entity": {
+		"name": "Java全栈自动化",
+		"category_id": 23,
+		"num": "00001",
+		"price": "",
+		"description": "这是一个很好的课程"
+	}
+} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.util.ExcelUtil:65 - 读取【新建产品]的第5行第2列的指是：{"code":0} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"21976","name":"A6ECD","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=9170561348b942d087ef3607cd164fc8 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"36461","name":"8E85D","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=9170561348b942d087ef3607cd164fc8 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":"","price":"6780","num":"51505","name":"96B78","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=9170561348b942d087ef3607cd164fc8 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"6780","num":"39714","name":"771A4","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=9170561348b942d087ef3607cd164fc8 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmProduct/saveAndUpdate 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"category_id":23,"price":"","num":"81298","name":"01D9A","description":"这是一个很好的课程"}} 
+[mtxapi] 2020/12/15 12:42:23   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=9170561348b942d087ef3607cd164fc8 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"0cdfac329eb143ea85c8aa62c39d5203","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 13:21:00","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"王同学","lat":""}} 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=0cdfac329eb143ea85c8aa62c39d5203 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/CrmCustomer/deleteByIds 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:92 - param:customerIds=19 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:101 - header:Admin-Token=0cdfac329eb143ea85c8aa62c39d5203 
+[mtxapi] 2020/12/15 13:21:6   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0} 
+[mtxapi] 2020/12/15 13:30:29   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 13:30:29   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 13:30:29   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 13:30:29   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"e894b9a401f3499ba4d3c23d6f19dd84","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 13:30:24","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 13:30:30   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/15 13:30:30   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"王同学","lat":""}} 
+[mtxapi] 2020/12/15 13:30:30   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=e894b9a401f3499ba4d3c23d6f19dd84 
+[mtxapi] 2020/12/15 13:30:30   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmContacts/addOrUpdate 
+[mtxapi] 2020/12/15 13:30:30   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"address":"北京霍营","post":"总经理","next_time":"2020-04-23 16:03:47","name":"晶晶","mobile":"18098909090","telephone":"01023456789","remark":"这是备注","customer_id":"20","email":"shddhdd@163.com"}} 
+[mtxapi] 2020/12/15 13:30:30   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=e894b9a401f3499ba4d3c23d6f19dd84 
+[mtxapi] 2020/12/15 13:30:30   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/CrmCustomer/deleteByIds 
+[mtxapi] 2020/12/15 13:30:30   INFO main com.mtx.http.MtxHttpClient:92 - param:customerIds=20 
+[mtxapi] 2020/12/15 13:30:30   INFO main com.mtx.http.MtxHttpClient:101 - header:Admin-Token=e894b9a401f3499ba4d3c23d6f19dd84 
+[mtxapi] 2020/12/15 13:30:30   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":500,"msg":"该条数据与其他数据有必要关联，请勿删除"} 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"37288e741346461a886672aeaf5b2f69","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 13:31:05","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"王同学","lat":""}} 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=37288e741346461a886672aeaf5b2f69 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmContacts/addOrUpdate 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"address":"北京霍营","post":"总经理","next_time":"2020-04-23 16:03:47","name":"晶晶","mobile":"18098909090","telephone":"01023456789","remark":"这是备注","customer_id":"21","email":"shddhdd@163.com"}} 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=37288e741346461a886672aeaf5b2f69 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/CrmCustomer/deleteByIds 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:92 - param:customerIds=21 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:101 - header:Admin-Token=37288e741346461a886672aeaf5b2f69 
+[mtxapi] 2020/12/15 13:31:10   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":500,"msg":"该条数据与其他数据有必要关联，请勿删除"} 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/login 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:92 - param:password=123456 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:92 - param:username=admin 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":0,"Admin-Token":"214428bc983747b6b7d87a61a85c8c8e","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2020-12-15 13:31:28","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"192.168.43.191","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}} 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmCustomer/addOrUpdate 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"王同学","lat":""}} 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=214428bc983747b6b7d87a61a85c8c8e 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:132 - url:http://192.168.43.203:8090/CrmContacts/addOrUpdate 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:133 - params:{"entity":{"address":"北京霍营","post":"总经理","next_time":"2020-04-23 16:03:47","name":"晶晶","mobile":"18098909090","telephone":"01023456789","remark":"这是备注","customer_id":"22","email":"shddhdd@163.com"}} 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:140 - header:Admin-Token=214428bc983747b6b7d87a61a85c8c8e 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:83 - url:http://192.168.43.203:8090/CrmCustomer/deleteByIds 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:92 - param:customerIds=22 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:101 - header:Admin-Token=214428bc983747b6b7d87a61a85c8c8e 
+[mtxapi] 2020/12/15 13:31:34   INFO main com.mtx.http.MtxHttpClient:112 - response:{"code":500,"msg":"该条数据与其他数据有必要关联，请勿删除"} 

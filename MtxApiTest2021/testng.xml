@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+   <!-- <listener class-name="com.mtx.listener.ExtentIReporterListenerUtil"></listener>  -->
+    <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.mtx.shop1118.MtxShopOrderTest1123_3"/>
+      <class name="com.mtx.shop1118.MtxShopLoginTest">
+      	<methods>
+      		<include name="test04_login">test04_login</include>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
