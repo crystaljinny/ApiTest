@@ -1,25 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="10" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1529" started-at="2020-12-15T05:31:33Z" finished-at="2020-12-15T05:31:34Z">
+  <suite name="Suite" duration-ms="2380" started-at="2021-01-18T12:19:43Z" finished-at="2021-01-18T12:19:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1529" started-at="2020-12-15T05:31:33Z" finished-at="2020-12-15T05:31:34Z">
-      <class name="com.mtx.apitest.DeleteCustomerTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mtx.apitest.DeleteCustomerTests@685cb137]" name="setUp" is-config="true" duration-ms="1419" started-at="2020-12-15T05:31:33Z" finished-at="2020-12-15T05:31:34Z">
+    <test name="Test" duration-ms="2380" started-at="2021-01-18T12:19:43Z" finished-at="2021-01-18T12:19:45Z">
+      <class name="com.mtx.shop1118.MtxShopOrderTest1123_3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mtx.shop1118.MtxShopOrderTest1123_3@4973813a]" name="setUp" is-config="true" duration-ms="387" started-at="2021-01-18T12:19:43Z" finished-at="2021-01-18T12:19:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test02_deleteCustomer()[pri:0, instance:com.mtx.apitest.DeleteCustomerTests@685cb137]" name="test02_deleteCustomer" duration-ms="85" started-at="2020-12-15T05:31:34Z" description="反例-新增客户-新增该客户联系人-删除该客户" finished-at="2020-12-15T05:31:34Z">
+        <test-method status="PASS" signature="test01_login()[pri:0, instance:com.mtx.shop1118.MtxShopOrderTest1123_3@4973813a]" name="test01_login" duration-ms="1191" started-at="2021-01-18T12:19:43Z" finished-at="2021-01-18T12:19:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test02_deleteCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mtx.apitest.DeleteCustomerTests@685cb137]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-12-15T05:31:34Z" finished-at="2020-12-15T05:31:34Z">
+        </test-method> <!-- test01_login -->
+        <test-method status="PASS" signature="test02_addOrder()[pri:0, instance:com.mtx.shop1118.MtxShopOrderTest1123_3@4973813a]" name="test02_addOrder" duration-ms="268" started-at="2021-01-18T12:19:44Z" depends-on-methods="com.mtx.shop1118.MtxShopOrderTest1123_3.test01_login" finished-at="2021-01-18T12:19:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mtx.apitest.DeleteCustomerTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test02_addOrder -->
+      </class> <!-- com.mtx.shop1118.MtxShopOrderTest1123_3 -->
+      <class name="com.mtx.shop1118.MtxShopLoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mtx.shop1118.MtxShopLoginTest@22a67b4]" name="init" is-config="true" duration-ms="15" started-at="2021-01-18T12:19:44Z" finished-at="2021-01-18T12:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test04_login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mtx.shop1118.MtxShopLoginTest@22a67b4]" name="test04_login" duration-ms="91" started-at="2021-01-18T12:19:44Z" description="shop-login-数据驱动" data-provider="loginData" finished-at="2021-01-18T12:19:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jinny]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[登录成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_login -->
+        <test-method status="PASS" signature="test04_login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mtx.shop1118.MtxShopLoginTest@22a67b4]" name="test04_login" duration-ms="95" started-at="2021-01-18T12:19:44Z" description="shop-login-数据驱动" data-provider="loginData" finished-at="2021-01-18T12:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[帐号不存在]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_login -->
+        <test-method status="PASS" signature="test04_login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mtx.shop1118.MtxShopLoginTest@22a67b4]" name="test04_login" duration-ms="79" started-at="2021-01-18T12:19:45Z" description="shop-login-数据驱动" data-provider="loginData" finished-at="2021-01-18T12:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jinny]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_login -->
+        <test-method status="PASS" signature="test04_login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mtx.shop1118.MtxShopLoginTest@22a67b4]" name="test04_login" duration-ms="107" started-at="2021-01-18T12:19:45Z" description="shop-login-数据驱动" data-provider="loginData" finished-at="2021-01-18T12:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[登录账号有误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_login -->
+        <test-method status="PASS" signature="test04_login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mtx.shop1118.MtxShopLoginTest@22a67b4]" name="test04_login" duration-ms="109" started-at="2021-01-18T12:19:45Z" description="shop-login-数据驱动" data-provider="loginData" finished-at="2021-01-18T12:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jinny]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码格式 6~18 个字符之间]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_login -->
+      </class> <!-- com.mtx.shop1118.MtxShopLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

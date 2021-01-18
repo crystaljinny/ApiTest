@@ -30,7 +30,7 @@ public class MtxShopOrderTest1123_3 {
     	Properties properties = PropertyUtil.readProperties("src/main/resources/http.properties");
     	host = properties.getProperty("http.mtxshop.url");
     	
-    	Properties dbProperties = PropertyUtil.readProperties("src/main/resources/shopparams/db.properties");
+    	Properties dbProperties = PropertyUtil.readProperties("src/main/resources/db.properties");
         String url = dbProperties.getProperty("db.mtxshop.url");
         String user = dbProperties.getProperty("db.mtxshop.username");
         String password = dbProperties.getProperty("db.mtxshop.password");
